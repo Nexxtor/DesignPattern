@@ -1,7 +1,7 @@
-package Singleton;
+package patterns.creational.singleton;
 
 /**
- * A example of basic and necessary components the Singleton Class
+ * A example of basic and necessary components the patterns.creational.singleton Class
  *
  * @author Néstor Aldana <nexxtor at naldana.com>
  */
@@ -12,7 +12,7 @@ public class Singleton {
     }
 
     /**
-     * Create a single instance of Singleton class
+     * Create a single instance of patterns.creational.singleton class
      *
      * @return Singleton
      */
