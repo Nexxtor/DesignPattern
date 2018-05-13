@@ -12,7 +12,7 @@ public class Singleton {
     }
 
     /**
-     * Crear una instancia unica de Singleton
+     * Create a single instance of Singleton class
      *
      * @return Singleton
      */
