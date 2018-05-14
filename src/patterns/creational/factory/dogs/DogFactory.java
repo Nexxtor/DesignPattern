@@ -1,13 +1,14 @@
 package patterns.creational.factory.dogs;
 
 public class DogFactory {
-    public static Dog getDog(String criteria) {
+
+    public static Dog getDog(DogType criteria) {
         switch (criteria) {
-            case "small":
+            case SMALL:
                 return new Poodle();
-            case "big":
+            case BIG:
                 return new Rottweiler();
-            case "working":
+            case WORKING:
                 return new SiberianHusky();
         }
         return null;
